@@ -1,7 +1,17 @@
+
+/* General */
+
 * {
     font-size: 18px;
     color: #E5E7EB;
     font-family: 'Roboto', sans-serif;
+    /*Use to draw red borders around everything for debugging 
+    border: 1px solid red;*/
+}
+
+body {
+    /* For some reason the default body has an 8px margin I don't want,this turns that off */
+    margin: 0px;
 }
 
 /* Header */
@@ -29,8 +39,8 @@ img.logo {
     flex-wrap: wrap;
     background-color: #1F2937;
     justify-content: center;
+    gap: 4%;
     align-items: center;
-    gap: 10px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -39,12 +49,12 @@ img.logo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 300px;
-    flex: 1;
+    flex-basis: 400px;
+    padding-bottom: 20px;
 }
 
 img.banner-image {
-    max-width: 400px;
+    max-width: 450px;
     height: auto;
     flex: 1;
 }
@@ -102,9 +112,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 10%;
 }
 
-.invisible-container {
+.quote-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,3 +138,51 @@ h1 {
     text-align: right;
     align-self: flex-end;
     }
+
+/* Call to Action */
+
+.call2a-section {
+    background-color: #3882f6;
+    margin: 80px 8%;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.call2a-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 800px;
+}
+
+.call2a-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+h3 {
+    margin-block: 0px;
+}
+
+button.inverted {
+    flex-shrink: 0;
+    border: 1px solid #E5E7EB;
+}
+
+/* Footer */
+
+.footer {
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    font-size: 14px;
+}
