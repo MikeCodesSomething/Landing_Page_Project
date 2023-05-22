@@ -1,6 +1,6 @@
 # Landing_Page_Project
 Creating a nicely styled landing page from scratch with HTML and CSS
-
+Link to site: https://mikecodessomething.github.io/Landing_Page_Project
 
 
 Logo image used is from TheOdinProject, original source: https://www.theodinproject.com/mstile-310x310.png
